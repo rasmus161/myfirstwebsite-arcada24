@@ -54,6 +54,8 @@ header div{
    padding: 10px;
 }
 
+
+/* the margin left is probably fucking with the nav responsive parts !!! */
 nav {
    margin-left:auto;
 }
