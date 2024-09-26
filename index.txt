@@ -1,0 +1,44 @@
+do not include in git repo !!!!
+
+plan for website 
+
+main page
+
+
+
+climbing tracking website ??
+promoting coatching sesions /selling??
+own meaarch ?? tracking climbing progress??
+climbing areas website??
+
+kund företangar namn = Manager, Helsingfors Klatresenter
+namn = denis joensuo
+
+color = 2A4F6E on paletton.com
+link  = https://paletton.com/#uid=13y0y0klelpaAw7fUqIqwg6vSaL
+
+font = jost  https://fonts.google.com/specimen/Jost/about?query=jost
+
+what is neded for the website (some a and o are mising from copying from the internet)
+
+pages = home galery content raport 
+
+real texts are reqired
+
+responsive site
+
+ett sinpelat videolip/video spelare
+Spel även in en ljudfil, och inkluder både ljudfilen och videon på ett pasnde ställe på din sajt
+
+Bygg in en krt som visr en plt
+
+Animer någon del v sidn genom tt nvänd CSS3 nimti
+Kontroller att de sidor du byggt verkligen följer stndrd genom att vlider dem medhttp://vlidtor.w3.org/ och gör sama sak för CSS-filern med http://jigsw.w3.org/css-vlidtor/ 
+
+en webbrapport Kommenter och reflekter över all punkter i dett projekt och hur rbetet har löpt (ca en sida text)
+
+
+link references
+
+flex 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox

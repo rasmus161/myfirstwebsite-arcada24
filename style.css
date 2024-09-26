@@ -1,0 +1,145 @@
+html {
+   background-color: #526085;
+   height: 100%;
+   margin: 0;
+ 
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Jost", sans-serif;
+  max-width: 1500px;
+  min-height: 400px;
+  background-color: rgb(234, 237, 240);
+  margin: 0;
+  margin: auto;
+  height: 100%;
+  
+  
+}
+ 
+
+ h1 {
+    color: azure;
+    text-align: center;
+    padding-top: 50px;
+ }
+ 
+
+ .text-normal {
+   color: azure;
+ }
+ .text-normal-dark {
+   color: rgb(15, 11, 11);
+ }
+
+
+/* nav is here yay */
+
+header {
+  
+   display: flex;
+   background-color: #133653;
+   color: azure;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+}
+
+header div{
+   font-size: large;
+   padding: 10px;
+}
+
+nav {
+   margin-left:auto;
+}
+
+.main-nav-ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   padding-right: 25px; 
+    
+}
+
+ li {
+    display: inline;
+    padding: 5px;
+    
+ }
+ nav a:hover{
+    color: #728ea5;
+    
+ }
+
+ /* responsive nav code  not working well sad*/
+
+ @media (max-width: 650px) {
+   .main-nav-ul {
+      margin-top: 100px;
+      flex-direction: column;
+       
+   }
+
+   
+}
+
+   
+
+ .colored {
+   background-color: #526085;
+   padding: 5px;
+   border-radius: 3px;
+ }
+
+ li a:hover:not(.colored) {
+   background-color: #133653;
+ }
+
+nav a {
+   text-decoration: none;
+   color: rgb(231, 225, 225);
+   font-size: 20px;
+}
+
+/* content is here */
+
+#content-box1 {
+  
+   background-color: #728ea5;
+   
+   
+}
+
+
+
+#content-box1-p {
+   text-align: center;
+   font-size: large;
+   padding-top: 10px;
+   padding-bottom: 20px;
+
+   
+}
+
+
+
+
+
+
+
+/* start of footer */
+
+footer {
+    
+   flex: 1;
+    background-color: #133653;
+    padding: 20px;
+    margin: 0;
+}
+
+
