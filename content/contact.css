@@ -5,6 +5,7 @@
     padding-top: 75px;
     padding-bottom: 75px;
     
+    
 }
 
 /* box2 */
@@ -30,7 +31,7 @@
 }
 
 
-#content-box3-iner1 h3 {
+#content-box3-iner1 h2 {
     text-align: center;
     font-size: 22px;
     padding-top: 20px;
@@ -53,7 +54,7 @@
     
 }
 
-#contet-box3-iner2 h4 {
+#contet-box3-iner2 h2 {
     text-align: center;
     font-size: 22px;
 }

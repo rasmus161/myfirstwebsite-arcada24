@@ -47,7 +47,7 @@ h2 {
 
  /* box 3 */
 
- #content-box3 h3 {
+ #content-box3 h2 {
     text-align: center;
     padding: 75px 50px 50px 50px;
     
@@ -81,6 +81,13 @@ h2 {
     
  }
 
+ #content-box4 p {
+   font-size: 17px;
+   text-align: justify;
+   line-height: 1.5;
+   
+}
+
  #content-box4-iner1 {
     flex: 40%;
  }
@@ -93,9 +100,8 @@ h2 {
  }
 
 
- #content-box4-iner1 h4 {
+ #content-box4-iner1 h3 {
     text-align: left;
-    font-size: 22px;
     padding: 20px 0px 0px 40px;
     
  }
