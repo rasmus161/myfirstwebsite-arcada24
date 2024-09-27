@@ -9,7 +9,7 @@
 
 /* box2 */
 
-#content-box2-contact h2 {
+#content-box2 h2 {
     text-align: center;
 }
 
@@ -17,3 +17,43 @@
 /* box3*/ 
 
 
+#content-box3 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#content-box3-iner1 {
+    flex: 50%;
+    background-color: #728ea5;
+    margin: 40px;
+}
+
+
+#content-box3-iner1 h3 {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+#content-box3-iner1 p {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#content-box3-iner1-text {
+    padding-top: 10px;
+}
+
+#contet-box3-iner2 {
+    flex: 50%;
+    background-color: #728ea5;
+    margin: 40px;
+    min-height: 300px; /* temporaty for now yay */
+    
+}
+
+#contet-box3-iner2 h4 {
+    text-align: center;
+    font-size: 22px;
+}
