@@ -54,6 +54,21 @@
     
 }
 
+
+#content-box3-iner2-icons {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+margin-left: 10px;
+margin-right: 10px;
+gap: 20px;
+
+}
+.icons {
+    width: 100px;
+    
+}
+
 #contet-box3-iner2 h2 {
     text-align: center;
     font-size: 22px;
