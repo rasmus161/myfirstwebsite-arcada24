@@ -1,6 +1,6 @@
 /* gallery styles here*/
 
-a:hover {
+h2 a:hover {
     color: #728ea5;
     text-decoration: underline;
   }
