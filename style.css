@@ -65,18 +65,15 @@ header div{
 }
 
 
-/* the margin left is probably fucking with the nav responsive parts !!! */
+
 nav {
-   margin-left:auto;
+   display: flex;
+   justify-content: flex-end;
+   width: 100%;
+   padding-right: 25px; 
+   
 }
 
-.main-nav-ul {
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
-   padding-right: 25px; 
-    
-}
 
  li {
     display: inline;
@@ -88,16 +85,27 @@ nav {
     
  }
 
- /* responsive nav code  not working well sad*/
+ /* responsive nav code */
 
- @media (max-width: 650px) {
-   .main-nav-ul {
-      margin-top: 100px;
-      flex-direction: column;
-       
-   }
+
 
    
+
+@media (max-width: 650px) {
+
+   
+   nav {
+      flex-direction: column;
+      width: 100%;
+      padding: 0%;
+   }
+
+   li {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 5px;
+   }
 }
 
    
