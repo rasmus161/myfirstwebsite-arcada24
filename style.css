@@ -38,6 +38,13 @@ body {
    color: rgb(15, 11, 11);
  }
 
+ .text-links {
+  text-decoration: none;
+  color: darkblue;
+
+ }
+
+ 
 
 /* nav is here yay */
 

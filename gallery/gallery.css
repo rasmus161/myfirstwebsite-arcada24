@@ -1,6 +1,9 @@
 /* gallery styles here*/
 
-
+a:hover {
+    color: #728ea5;
+    text-decoration: underline;
+  }
 
 
 #content-box2-galery {
