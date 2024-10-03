@@ -10,8 +10,24 @@
 
 /* box2 */
 
+
+
 #content-box2 h2 {
     text-align: center;
+}
+
+
+#content-box2-iner1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+
+}
+
+#map {
+    width: 80%;
+    min-height: 300px;
+  
 }
 
 
