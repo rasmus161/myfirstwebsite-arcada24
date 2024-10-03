@@ -1,65 +1,67 @@
 html {
+   /* the bacground is braking somewhat fix this */
    background-color: #526085;
    height: 100%;
    margin: 0;
- 
+
 }
 
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  font-family: "Jost", sans-serif;
-  max-width: 1500px;
-  min-height: 400px;
-  background-color: rgb(234, 237, 240);
-  margin: 0;
-  margin: auto;
-  height: 100%;
-  
-  
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   font-family: "Jost", sans-serif;
+   max-width: 1500px;
+   min-height: 400px;
+   background-color: rgb(234, 237, 240);
+   margin: 0;
+   margin: auto;
+   height: 100%;
+
+
 }
 
 
- 
 
- h1 {
-    color: azure;
-    text-align: center;
-    padding-top: 50px;
-    font-size: 24px;
- }
- 
 
- .text-normal {
+h1 {
    color: azure;
- }
- .text-normal-dark {
+   text-align: center;
+   padding-top: 50px;
+   font-size: 24px;
+}
+
+
+.text-normal {
+   color: azure;
+}
+
+.text-normal-dark {
    color: rgb(15, 11, 11);
- }
+}
 
- .text-links {
-  text-decoration: none;
-  color: darkblue;
+.text-links {
+   text-decoration: none;
+   color: darkblue;
 
- }
+}
 
- 
+
 
 /* nav is here yay */
 
 header {
-  
+
    display: flex;
    background-color: #133653;
    color: azure;
    align-items: center;
    padding-top: 10px;
    padding-bottom: 10px;
-   
+
 }
 
-header div{
+header div {
    font-size: large;
    padding: 10px;
 }
@@ -70,30 +72,31 @@ nav {
    display: flex;
    justify-content: flex-end;
    width: 100%;
-   padding-right: 25px; 
-   
+   padding-right: 25px;
+
 }
 
 
- li {
-    display: inline;
-    padding: 5px;
-    
- }
- nav a:hover{
-    color: #728ea5;
-    
- }
+li {
+   display: inline;
+   padding: 5px;
 
- /* responsive nav code */
+}
+
+nav a:hover {
+   color: #728ea5;
+
+}
+
+/* responsive nav code */
 
 
 
-   
+
 
 @media (max-width: 650px) {
 
-   
+
    nav {
       flex-direction: column;
       width: 100%;
@@ -108,17 +111,17 @@ nav {
    }
 }
 
-   
 
- .colored {
+
+.colored {
    background-color: #526085;
    padding: 5px;
    border-radius: 3px;
- }
+}
 
- li a:hover:not(.colored) {
+li a:hover:not(.colored) {
    background-color: #133653;
- }
+}
 
 nav a {
    text-decoration: none;
@@ -129,10 +132,10 @@ nav a {
 /* content is here */
 
 #content-box1 {
-  
+
    background-color: #728ea5;
-   
-   
+
+
 }
 
 
@@ -143,7 +146,7 @@ nav a {
    padding-top: 10px;
    padding-bottom: 20px;
 
-   
+
 }
 
 
@@ -155,11 +158,9 @@ nav a {
 /* start of footer */
 
 footer {
-    
+
    flex: 1;
-    background-color: #133653;
-    padding: 20px;
-    margin: 0;
+   background-color: #133653;
+   padding: 20px;
+   margin: 0;
 }
-
-

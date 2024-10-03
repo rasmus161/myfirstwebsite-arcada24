@@ -3,11 +3,11 @@
 
 #raport-h1 {
     padding-bottom: 50px;
-    
+
 }
 
 /* box2 */
- 
+
 #content-box2 {
     text-align: center;
     padding: 30px;
@@ -15,32 +15,33 @@
     border-style: solid;
     border-color: #278ea5;
     margin: 50px;
-    
+
 }
 
 #content-box2 h2 {
     padding-bottom: 40px;
 }
+
 #content-box2 h3 {
     padding-top: 20px;
-    
+
 }
 
 #content-box2 p {
     font-size: 17px;
     text-align: justify;
     line-height: 1.5;
-    
+
 }
 
 
 /* box3 */
 
 #content-box3 {
- display: flex;
- justify-content: center;
- padding-bottom: 50px;
- 
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
 }
 
 #contet-box3-iner1 {

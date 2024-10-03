@@ -4,8 +4,8 @@
 #contact-h1 {
     padding-top: 75px;
     padding-bottom: 75px;
-    
-    
+
+
 }
 
 /* box2 */
@@ -15,7 +15,7 @@
 }
 
 
-/* box3*/ 
+/* box3*/
 
 
 #content-box3 {
@@ -50,20 +50,22 @@
     flex: 50%;
     background-color: #728ea5;
     margin: 40px;
-    min-height: 300px; /* temporaty for now yay */
-    
+    min-height: 300px;
+    /* temporaty for now yay */
+
 }
 
 
 #content-box3-iner2-icons {
-display: flex;
-justify-content: center;
-margin-top: 50px;
-margin-left: 10px;
-margin-right: 10px;
-gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
 
 }
+
 .icons {
     width: 100px;
     transform: 0.5s;
