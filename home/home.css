@@ -45,12 +45,13 @@ h2 {
 
 #content-box3 h2 {
    text-align: center;
-   padding: 75px 50px 50px 50px;
+   padding: 75px 50px 0px 50px;
 
 }
 
 #content-box3 p {
    text-align: center;
+   padding-bottom: 20px;
 }
 
 #content-box3 {
