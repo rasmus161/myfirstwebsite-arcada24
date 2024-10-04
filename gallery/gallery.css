@@ -28,26 +28,32 @@ h2 a:hover {
 
 #glery-images-big {
     grid-area: big;
+    
 }
 
 #glery-images-sm1 {
-    grid-area: smal1
+    grid-area: smal1;
 }
 
 #glery-images-sm2 {
-    grid-area: smal2
+    grid-area: smal2;
 }
 
 #glery-images-sm3 {
-    grid-area: smal3
+    grid-area: smal3;
 }
 
 #glery-images-sm4 {
-    grid-area: smal4
+    grid-area: smal4;
 }
 
 .images {
-    height: 100%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: none;
+    overflow: hidden;
+
 }
 
 
@@ -65,9 +71,28 @@ h2 a:hover {
             "smal2"
             "smal3"
             "smal4";
-        width: auto;
+        width: 100%;
         height: 100%;
 
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
