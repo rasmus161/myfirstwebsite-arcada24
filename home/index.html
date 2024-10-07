@@ -14,17 +14,16 @@
 
     <title>helsing fors bouldelers</title>
     <!--TO DO LIST-->
-    <!-- fix footer on gallery-->
     <!-- logo  to all  pages in the nav -->
-    <!-- htlm validation and css validation-->
     <!-- gallery is not working and not the righ images-->
-    <!-- video player on home page and edited video--> 
     <!-- sound bar underneath the video player and the sound edited (faind in,faid out)--> 
     <!-- write the raport to the end-->
-    <!-- add final images to the plan and edit them first to fit the site-->
     <!-- läg till nogonsors animerig genom ccs3 animatiner -->
-    <!-- html background is leaking on to the midle of the page fix--> 
+
     <!-- format all pages with rightclick format document-->
+    <!-- htlm validation and css validation-->
+    <!-- skana igenom för mistag och förbätringar gör deta tillsist--> 
+    <!-- för att lämna skika den med filecila till html katalogn och leämna in länken till sidan--> 
 
 </head>
 
@@ -97,10 +96,14 @@
             </div>
 
             <div id="content-box4-iner2">
-                <video src="">
-                    <source src="path/to/your-video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                
+                     <!--fungerar inte helt -->
+                      <video controls autoplay muted  poster="../images/boulderingDemo.jpg">
+                        <source media="(min-width: 1051px)" src="../media/boulderingDemo-pc.mp4" type="video/mp4">
+                        <source media="(max-width: 1050px)" src="../media/boulderingDemo-mobilev2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+               
             </div>
 
         </div>

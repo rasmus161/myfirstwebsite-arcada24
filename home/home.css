@@ -86,9 +86,14 @@ padding: 20px 100px 50px 100px;
 
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
    #content-box4 {
        flex-direction: column;
+   }
+
+   #content-box4-iner2 video {
+      padding-bottom: 20px;
+
    }
 }
 
@@ -124,12 +129,9 @@ padding: 20px 100px 50px 100px;
 
 /* video player */
 
-#content-box4 video {
-   background-color: red;
+#content-box4-iner2 video {
+   max-height: 90%;
+   max-width: 90%;
    
-   
-   
-   
-
-
-}
+  
+} 
