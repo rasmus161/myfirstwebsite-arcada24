@@ -9,12 +9,17 @@
 /* box2 */
 
 #content-box2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
     padding: 30px;
     border-width: 5px;
     border-style: solid;
     border-color: #278ea5;
     margin: 50px;
+   
+    
 
 }
 
@@ -31,6 +36,8 @@
     font-size: 17px;
     text-align: justify;
     line-height: 1.5;
+    
+    
 
 }
 
