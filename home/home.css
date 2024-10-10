@@ -91,10 +91,7 @@ padding: 20px 100px 50px 100px;
        flex-direction: column;
    }
 
-   #content-box4-iner2 video {
-      padding-bottom: 20px;
-
-   }
+   
 }
 
 #content-box4 p {
@@ -110,6 +107,7 @@ padding: 20px 100px 50px 100px;
 
 #content-box4-iner2 {
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    flex: 60%;
@@ -127,11 +125,19 @@ padding: 20px 100px 50px 100px;
 
 }
 
+/* audio player */
+
+#content-box4-iner2 audio  {
+   margin: 20px;
+   
+   
+  
+} 
+
 /* video player */
 
-#content-box4-iner2 video {
-   max-height: 90%;
-   max-width: 90%;
+#content-box4-iner2 video  {
+   margin: 20px;
    
   
 } 
