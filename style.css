@@ -208,8 +208,17 @@ nav a {
 /* start of footer */
 
 footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
    background-color: #133653;
-   min-height: 150px;
-   margin-top: auto;
+   color: azure;
+   min-height: 125px;
+   text-align: center;
+
+
+
+
+
 
 }
