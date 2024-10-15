@@ -138,6 +138,17 @@ padding: 20px 100px 50px 100px;
 
 #content-box4-iner2 video  {
    margin: 20px;
+   padding-top: 50px;
    
   
 } 
+
+@media (max-width: 650px) { 
+
+   #content-box4-iner2 video  {
+      padding-top: 0%;
+      max-width: 400px;
+   } 
+   
+}
+
