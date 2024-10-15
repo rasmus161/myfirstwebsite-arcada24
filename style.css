@@ -82,9 +82,8 @@ header {
 
 }
 
-header div {
-   font-size: large;
-   padding: 10px;
+#logo-nav {
+   margin: 10px;
 }
 
 
@@ -129,6 +128,13 @@ nav a:hover {
       width: 100%;
       text-align: center;
       padding: 5px;
+   }
+
+   #logo-nav {
+      margin: 10px;
+      padding-left: 50px;
+      width: 200px;
+      height: 200px;
    }
 }
 
