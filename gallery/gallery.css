@@ -49,7 +49,7 @@ h2 a:hover {
 }
 
 .images {
-    min-width: 400px;
+    min-width: 420px;
     min-height: 300px;
     object-fit: cover;
     /* border: none; */
