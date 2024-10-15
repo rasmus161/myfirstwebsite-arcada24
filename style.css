@@ -35,8 +35,8 @@ body {
    max-width: 1550px;
    background-color: rgb(234, 237, 240);
    margin: auto;
-  
-  
+
+
 
 
 }
@@ -46,10 +46,30 @@ h1 {
    color: azure;
    text-align: center;
    padding-top: 50px;
-   font-size: 24px;
+   padding-bottom: 50px;
+   font-size: 26px;
    margin: 0%;
-   
-   
+   animation: floatIn 1.5s ease-out;
+
+
+}
+
+@keyframes floatIn {
+
+   0% {
+      opacity: 0;
+      transform: translateY(-50px);
+   }
+
+   50% {
+      opacity: 0.5;
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+
 }
 
 
@@ -177,9 +197,12 @@ nav a {
 }
 
 
+/* n hover */
 
+.hover:hover {
+   opacity: 0.5;
 
-
+}
 
 
 /* start of footer */

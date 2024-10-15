@@ -16,44 +16,41 @@
     <!--TO DO LIST-->
     <!-- responsive desing för bobilen tänk tx på text storläkar 
      + en konstig balk komer fram under 650px -->
-     
+
     <!-- gallery is not working and not the righ images-->
     <!-- write the raport to the end-->
 
-    <!-- läg till nogonsors animerig genom ccs3 animatiner -->
-     <!-- css animation till en svg tx din h1 tagg maby-->
-
-
+    
     <!-- format all pages with rightclick format document-->
     <!-- htlm validation and css validation gå sida för sida obs!!-->
-    <!-- skana igenom för mistag och förbätringar gör deta tillsist--> 
-    <!-- för att lämna skika den med filecila till html katalogn och leämna in länken till sidan--> 
-     
+    <!-- skana igenom för mistag och förbätringar gör deta tillsist-->
+    <!-- för att lämna skika den med filecila till html katalogn och leämna in länken till sidan-->
+
 </head>
 
 <body>
     <section>
 
-    <header>
-        
-        <div>
-            <a href="./index.html">
-                <img id="logo-nav" src="../images/icons/LogoHBA.svg" alt="Home">
-            </a>
-        </div>
-        <nav>
-            <ul class="main-nav-ul">
-                <li><a class="colored" href="./index.html">Home</a></li>
-                <li><a href="../gallery/index.html">Gallery</a></li>
-                <li><a href="../content/index.html">Contact</a></li>
-                <li><a href="../rapport/index.html">Raport</a></li>
-            </ul>
-        </nav>
+        <header>
 
-    </header>
-    
+            <div>
+                <a href="./index.html">
+                    <img id="logo-nav" class="hover" src="../images/icons/LogoHBA.svg" alt="Home">
+                </a>
+            </div>
+            <nav>
+                <ul class="main-nav-ul">
+                    <li><a class="colored" href="./index.html">Home</a></li>
+                    <li><a href="../gallery/index.html">Gallery</a></li>
+                    <li><a href="../content/index.html">Contact</a></li>
+                    <li><a href="../rapport/index.html">Raport</a></li>
+                </ul>
+            </nav>
 
-   
+        </header>
+
+
+
 
         <div id="content-box1">
             <h1> Helsinki Boulder Centre </h1>
@@ -67,13 +64,13 @@
                 walls up to 500 boulders and around 5000 square meters of climbing surfaces.
             </p>
             <div id="content-box2-iner1">
-             <picture id="big-image">
-                <source media="(min-width: 1000px)" srcset="../images/mainpage-pc-fixed.jpg" alt="">
-                <source media="(min-width: 650px)" srcset="../images/mainpage-mobile.jpg" alt="">
-                   <img src="../images/mainpage-mobile-1.1.jpg" alt="big image">
-             </picture>
+                <picture id="big-image">
+                    <source media="(min-width: 1000px)" srcset="../images/mainpage-pc-fixed.jpg" alt="">
+                    <source media="(min-width: 650px)" srcset="../images/mainpage-mobile.jpg" alt="">
+                    <img src="../images/mainpage-mobile-1.1.jpg" alt="big image">
+                </picture>
             </div>
-            
+
         </div>
 
         <div id="content-box3">
@@ -87,10 +84,11 @@
             <div id="content-box4-iner1">
                 <h3 class="text-normal-dark">About the gym</h3>
                 <p> Bouldering is an exciting sport where you put on specially made shoes with a sharp edge at the edge
-                    of your toes made from rubber. Then with some climbing shoes on you are tasked to climb up one of the many walls that
-                    are up to a hight of 5m high using a specially crafted rout. 
-                    </p>
-                    <p>
+                    of your toes made from rubber. Then with some climbing shoes on you are tasked to climb up one of
+                    the many walls that
+                    are up to a hight of 5m high using a specially crafted rout.
+                </p>
+                <p>
                     The routs are marked by different colors. Do note fear
                     falling down even
                     though bouldering means no ropers or harness to slow your fall since there is at least 60 cm thick,
@@ -102,20 +100,20 @@
 
             <div id="content-box4-iner2">
                 <div>
-                     <!--fungerar inte helt consider display none on the one that is not in use -->
-                      <video controls autoplay muted  poster="../images/boulderingDemo.jpg">
+                    <!--fungerar inte helt consider display none on the one that is not in use -->
+                    <video controls autoplay muted poster="../images/boulderingDemo.jpg">
                         <source media="(min-width: 1051px)" src="../media/boulderingDemo-pc.mp4" type="video/mp4">
                         <source media="(max-width: 1050px)" src="../media/boulderingDemo-mobilev2.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                      </video>
+                    </video>
                 </div>
                 <div id="audio-player">
-                      <audio controls>
+                    <audio controls>
                         <source src="../media/knokknok.mp3" type="audio/mpeg">
                         Your browser does not support the audio element
-                      </audio>
+                    </audio>
                 </div>
-               
+
             </div>
 
         </div>

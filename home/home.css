@@ -21,26 +21,24 @@ h2 {
    font-size: large;
    padding-top: 10px;
    padding-bottom: 75px;
-  
+
 
 
 }
 
 /* box 2 */
-#content-box2 {
-
-}
+#content-box2 {}
 
 #content-box2-p {
    text-align: center;
    padding: 15px 40px 10px 40px;
-   
+
 }
 
 #content-box2-iner1 {
-display: flex;
-justify-content: center;
-padding: 20px 100px 50px 100px;
+   display: flex;
+   justify-content: center;
+   padding: 20px 100px 50px 100px;
 
 
 }
@@ -88,10 +86,10 @@ padding: 20px 100px 50px 100px;
 
 @media (max-width: 1050px) {
    #content-box4 {
-       flex-direction: column;
+      flex-direction: column;
    }
 
-   
+
 }
 
 #content-box4 p {
@@ -127,28 +125,27 @@ padding: 20px 100px 50px 100px;
 
 /* audio player */
 
-#content-box4-iner2 audio  {
+#content-box4-iner2 audio {
    margin: 20px;
-   
-} 
+
+}
 
 
 
 /* video player */
 
-#content-box4-iner2 video  {
+#content-box4-iner2 video {
    margin: 20px;
    padding-top: 50px;
-   
-  
-} 
 
-@media (max-width: 650px) { 
 
-   #content-box4-iner2 video  {
-      padding-top: 0%;
-      max-width: 400px;
-   } 
-   
 }
 
+@media (max-width: 650px) {
+
+   #content-box4-iner2 video {
+      padding-top: 0%;
+      max-width: 400px;
+   }
+
+}
