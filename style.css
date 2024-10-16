@@ -45,8 +45,8 @@ h1 {
    color: azure;
    text-align: center;
    padding-top: 50px;
-   padding-bottom: 50px;
-   font-size: 26px;
+   padding-bottom: 40px;
+   font-size: 45px;
    margin: 0%;
    animation: floatIn 1.5s ease-out;
 
@@ -190,9 +190,8 @@ nav a {
 
 #content-box1-p {
    text-align: center;
-   font-size: large;
-   padding-top: 10px;
-   padding-bottom: 20px;
+   font-size: 20px;
+   padding-bottom: 40px;
 
 
 }

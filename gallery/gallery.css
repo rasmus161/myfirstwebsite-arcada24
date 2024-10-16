@@ -28,6 +28,55 @@ h2 a:link {
 
 /* content box 3 */
 
-#content-box3-galery {
-    background-color: #2a4f6e;
-}
+
+
+
+
+#content-box3-gallery {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 25px;
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  iframe {
+    width:75%;
+    height: 400px;
+    
+    
+  }
+  
+  .thumbnail-box {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding-bottom: 75px;
+   
+  }
+  
+  .thumbnail img {
+    
+    height: auto;
+  }
+  
+  
+  /* Media Queries for Responsiveness */
+@media (max-width: 900px) {
+    iframe {
+      height: 300px;
+    }
+
+    .thumbnail-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+      }
+  }
+
+  
+  
+  
+
+
