@@ -41,11 +41,13 @@ h2 a:link {
   }
   
   iframe {
-    width:75%;
-    height: 400px;
+    width: 1000px;
+    height: 473px;
     
     
   }
+
+   
   
   .thumbnail-box {
     display: grid;
@@ -56,21 +58,35 @@ h2 a:link {
    
   }
   
-  .thumbnail img {
-    
+  .thumbnail-box img {
     height: auto;
+    max-width: 150px;
   }
   
   
-  /* Media Queries for Responsiveness */
-@media (max-width: 900px) {
+ 
+@media (max-width: 1100px) {
     iframe {
-      height: 300px;
+      width: 600px;
+      height: 284px;
     }
 
     .thumbnail-box {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        
+      }
+  }
+
+  @media (max-width: 700px) {
+    iframe {
+      width: 400px;
+      height: 189px;
+    }
+
+    .thumbnail-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         
       }
   }
