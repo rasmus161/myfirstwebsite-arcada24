@@ -22,13 +22,11 @@ h2 a:link {
     padding: 20px;
 }
 
-#content-box2 {
-    min-height: 150px;
-}
+
+
+
 
 /* content box 3 */
-
-
 
 
 
@@ -42,9 +40,7 @@ h2 a:link {
   
   iframe {
     width: 1000px;
-    height: 473px;
-    
-    
+    height: 563px;
   }
 
    
@@ -68,7 +64,7 @@ h2 a:link {
 @media (max-width: 1100px) {
     iframe {
       width: 600px;
-      height: 284px;
+      height: 338px;
     }
 
     .thumbnail-box {
@@ -81,7 +77,7 @@ h2 a:link {
   @media (max-width: 700px) {
     iframe {
       width: 400px;
-      height: 189px;
+      height: 225px;
     }
 
     .thumbnail-box {
