@@ -2,22 +2,71 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="75"
-   height="75"
+   width="200"
+   height="200"
    viewBox="0 0 49.025279 49.025279"
    version="1.1"
    id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="LogoHBC.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:clip-to-page="true"
+     inkscape:zoom="2.9354653"
+     inkscape:cx="81.077436"
+     inkscape:cy="124.00078"
+     inkscape:window-width="1493"
+     inkscape:window-height="1212"
+     inkscape:window-x="2464"
+     inkscape:window-y="128"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
   <defs
-     id="defs1" />
+     id="defs1">
+    <rect
+       x="19.270724"
+       y="52.994492"
+       width="157.0564"
+       height="92.499476"
+       id="rect15" />
+  </defs>
   <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
      id="layer1">
     <path
+       sodipodi:type="star"
        style="fill:#ffffff;stroke-width:0.245126"
        id="path4"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="23.855003"
+       sodipodi:cy="23.146441"
+       sodipodi:r1="22.439117"
+       sodipodi:r2="19.432846"
+       sodipodi:arg1="-1.5602704"
+       sodipodi:arg2="-1.0366716"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
        d="M 24.091192,0.70856614 43.404867,12.132048 43.168678,34.569923 23.618815,45.584315 4.3051401,34.160833 4.5413282,11.722958 Z"
        transform="translate(0.23618816,1.1809408)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.2451264)"
+       id="text15"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect15);display:inline;fill:#ffffff" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.7856px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#3a3a3a;fill-opacity:1;stroke-width:0.649549"
@@ -25,10 +74,11 @@
        y="26.281561"
        id="text16"
        transform="scale(0.7797356,1.282486)"><tspan
+         sodipodi:role="line"
          id="tspan15"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#3a3a3a;fill-opacity:1;stroke-width:0.649549"
          x="8.5673227"
-         y="26.281561">HBA</tspan></text>
+         y="26.281561">HBC</tspan></text>
     <path
        id="path24"
        style="fill:#3a3a3a;fill-opacity:1;stroke-width:0.245126"
