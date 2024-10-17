@@ -16,7 +16,7 @@ h2 {
 
 
 /* box 2 */
-#content-box2 {}
+
 
 #content-box2-p {
    text-align: center;
@@ -28,7 +28,6 @@ h2 {
    display: flex;
    justify-content: center;
    padding: 20px 100px 50px 100px;
-
 
 }
 
