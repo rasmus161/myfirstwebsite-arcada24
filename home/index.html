@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="./home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <script src="../script.js"></script>
     <link rel="icon" type="image/x-icon" href="/images/icons/LogoHBC.svg">
     <title>Home-Helsinki Boulder Centre</title>
 
-    
+
     <!-- format all pages with rightclick format document-->
     <!-- skana igenom för mistag och förbätringar gör deta tillsist-->
     <!-- för att lämna skika den med filecila till html katalogn och leämna in länken till sidan-->
@@ -57,8 +58,8 @@
             </p>
             <div id="content-box2-iner1">
                 <picture id="big-image">
-                    <source media="(min-width: 1000px)" srcset="../images/mainpage-pc-fixed.jpg" >
-                    <source media="(min-width: 650px)" srcset="../images/mainpage-mobile.jpg" >
+                    <source media="(min-width: 1000px)" srcset="../images/mainpage-pc-fixed.jpg">
+                    <source media="(min-width: 650px)" srcset="../images/mainpage-mobile.jpg">
                     <img src="../images/mainpage-mobile-1.1.jpg" alt="boulder wall">
                 </picture>
             </div>
@@ -91,11 +92,14 @@
             </div>
 
             <div id="content-box4-iner2">
-                <div>
-                    <!--fungerar inte helt consider display none on the one that is not in use  fix validation error-->
-                    <video controls autoplay muted poster ="../images/boulderingDemo.jpg">
-                        <source media="(min-width: 1051px)" src="../media/boulderingDemo-pc.mp4" type="video/mp4">
-                        <source media="(max-width: 1050px)" src="../media/boulderingDemo-mobilev2.mp4" type="video/mp4">
+                <div id="video-player">
+                    <video id="video-pc" controls autoplay muted poster="../images/boulderingDemo.jpg">
+                        <source src="../media/boulderingDemo-pc.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <video id="video-mobile" controls autoplay muted poster="../images/boulderingDemo.jpg">
+                        <source src="../media/boulderingDemo-mobilev2.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -116,7 +120,7 @@
     <footer>
 
         <p> &copy; 2024 rasmusp</p>
-        
+
     </footer>
 
 

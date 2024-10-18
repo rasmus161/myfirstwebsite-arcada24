@@ -72,7 +72,7 @@ h2 {
 
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1051px) {
    #content-box4 {
       flex-direction: column;
    }
@@ -100,6 +100,8 @@ h2 {
 }
 
 
+
+
 #content-box4-iner1 h3 {
    text-align: left;
    padding: 20px 0px 0px 40px;
@@ -122,18 +124,41 @@ h2 {
 
 /* video player */
 
-#content-box4-iner2 video {
+#video-player video {
    margin: 20px;
    padding-top: 50px;
 
 
 }
 
+#video-pc {
+   display: none;
+}
+
+#video-mobile {
+   display: block;
+}
+
 @media (max-width: 650px) {
 
-   #content-box4-iner2 video {
+   #video-player video {
       padding-top: 0%;
       max-width: 400px;
+
+
+   }
+
+}
+
+@media (min-width: 1050px) {
+
+   #video-pc {
+      display: block;
+
+   }
+
+   #video-mobile {
+      display: none;
    }
 
 }
